@@ -1,0 +1,130 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+
+  nav {
+    background-color: #ff6349;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav button {
+    background-color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 0.5rem;
+  }
+  
+  nav button:hover {
+    background-color: #ffd1b2;
+  }
+  
+
+  header {
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Ffr.pikbest.com%2Fbackgrounds%2Fcooking-delicious-top-view-of-pizza-on-a-textured-gray-background-concept_9925164.html&psig=AOvVaw2L7nSP7Mx89UTS9vHw2hZi&ust=1727409082652000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKCLrbja34gDFQAAAAAdAAAAABAT);
+    text-align: center;
+    background-color: #ffd1b2;
+    padding: 2rem 0;
+    margin-bottom: 1rem;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  .ola{
+   
+    display: grid;
+    justify-items: center;
+    width: 100%;
+    height: 700px;
+    background-color: #ebebeb;
+    grid-template-columns: 1fr 1fr  1fr ;
+    overflow-y: auto;
+   }
+  .card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 0.5rem;
+    border: 10px;
+    width: 100%;
+    
+    
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .card h2 {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .card p {
+    font-size: 1.2rem;
+    color: #28a745;
+    margin: 0.5rem 0;
+  }
+  
+  .card ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .card ul li {
+    margin: 0.2rem 0;
+  }
+  
+  .card button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 0.5rem;
+    border-radius: 4px;
+  }
+  
+  .card button:hover {
+    background-color: #d9534f;
+  }
+  
+
+  footer {
+    background-color: #343a40;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
